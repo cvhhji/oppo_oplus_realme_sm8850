@@ -6,7 +6,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
 
 # ===== 设置自定义参数 =====
-echo "===== 欧加真SM8850通用6.12.23 A16 OKI内核本地编译脚本 By Coolapk@cctv18 ====="
+echo "===== 欧加真SM8850通用6.12.23 A16 OKI内核本地编译脚本 By ZAOMIN ====="
 echo ">>> 读取用户配置..."
 MANIFEST=${MANIFEST:-oppo+oplus+realme}
 read -p "请输入自定义内核后缀（默认：android16-5-ga8f88ad96df3-ab13929693-4k）: " CUSTOM_SUFFIX
